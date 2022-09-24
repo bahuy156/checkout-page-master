@@ -1,0 +1,326 @@
+*{
+    font-family: 'Montserrat';
+}
+.app6{
+    margin: 64px 240px 24px 240px;
+}
+.header{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4E5150;
+}
+.main{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+.contact{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+.info{
+    margin-bottom: 20px;
+}
+.info-top{
+    margin-top: 15px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4F4F4F;
+}
+.info-child{
+    margin-top: 6px;
+    display: flex;
+    max-width: 235px;
+    padding: 16px 210px 16px 12px;
+    border: 1px solid #828282;
+    border-radius: 12px;
+}
+.info-child i{
+    margin-right: 18px;
+    font-size: 20px;
+    color: #828282;
+}.info-child p{
+    margin: 0;
+    color: #828282;
+    font-size: 16px;
+}
+.main-content-first_shipping{
+    margin-top: 58px;
+}
+.fullname{
+    color: #333333;
+}
+.info-second{
+    display: flex;
+}
+.info-second .info{
+    margin-right: 10px;
+}
+.info-second .info-child{
+    position: relative;
+    width: 0;
+}
+.info-second p{
+    position: absolute;
+    left: 55px;
+}
+.arrow i{
+    position: absolute;
+    left: 180px;
+    font-size: 10px;
+    padding: 6px 5px 3px 4px;
+    background-color: #E0E0E0;
+    border-radius: 4px;
+}
+.main-check-save{
+    display: flex;
+}
+.box span{
+    margin-right: 10px;
+    padding: 0px 10px 5px 10px;
+    background-color: #ffff;
+    color: #ffff;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.main-check-save p{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 5px;
+    color: #4F4F4F;
+}
+.main-continue{
+    max-width: 76px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffff;
+    padding: 17px 45px;
+    background-color: #F2994A;
+    border-radius: 12px;
+    margin: 23px 0 0 293px;
+}
+.main-product{
+    margin-left: 110px;
+    padding: 33px 45px 25px 29px;
+    background-color: #F2F2F2;
+    border-radius: 12px;
+}
+.main-product-child{
+    display: flex;
+    margin-bottom: 30px;
+}
+.main-product-child-image img{
+    width: 175px;
+    height: 175px;
+    margin-right: 13px;
+    border-radius: 12px;
+}
+.product-name{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4E5150;
+    ;
+}
+.product-price{
+    display: flex;
+    margin-top: 6px;
+}
+.price{
+    margin-right: 5px;
+    color: #F2994A;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+.price-sale{
+    margin-top: 2px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #4E5150;
+    text-decoration: line-through;
+}
+.product-amount{
+    max-width: 110px;
+    margin-top: 35px;
+    padding: 12px 12px;
+    display: flex;
+    border: 1px solid #828282;
+    border-radius: 12px;
+}
+.product-amount p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 3px 25px 0 25px;
+}
+.sign{
+    font-size: 20px;
+    padding:  0 8px;
+    background-color: #E0E0E0;
+    color: #828282;
+    border-radius: 4px;
+}
+.ship-total-child{
+    margin-top: 95px;
+    display: flex;
+    border-top: 1px solid #BDBDBD;
+}
+.ship-total-child p{
+    margin: 11px 230px 0 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+}
+.ship-total-child span{
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+.ship-total-child_{
+    margin-top: 11px;
+    display: flex;
+    border-top: 1px solid #BDBDBD;
+}
+.ship-total-child_ p{
+    margin: 11px 237px 0 0;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+}
+.ship-total-child_ span{
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+
+.footer{
+    margin-top: 160px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BDBDBD;
+    text-align: center;
+}
+.footer span{
+    font-weight: 700;
+}
+
+@media screen and (max-width: 426px){
+    .app6{
+        margin: 32px 12px 24px 12px;
+    }
+    .header{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .main{
+        margin-top: 20px;
+        position: relative;
+        flex-direction: column;
+    }
+    .main-product{
+        position: absolute;
+        margin-left: 0;
+        padding: 30px 23px 13px 26px;
+    }
+    .main-content{
+        margin-top: 590px;
+    }
+    .main-product-child-image img{
+        width: 160px;
+        height: 160px;
+    }
+    .product-name{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .price{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .price-sale{
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .product-amount{
+        max-width: 110px;
+        margin-top: 30px;
+    }
+    .product-amount p{
+        margin: 3px 25px 0 25px;
+    }
+    .ship-total-child{
+        margin-top: 80px;
+    }
+    .ship-total-child p{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .ship-total-child_ p{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .contact{
+        font-size: 14px;
+        line-height: 17px
+    }
+    .info{
+        margin-bottom: 16px;
+    }
+    .info-top{
+        margin-top: 11px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .info-child{
+        max-width: 196px;
+        padding: 16px 172px 16px 12px;
+    }
+    .info-child i{
+        margin-right: 15px;
+        font-size: 15px;
+    }.info-child p{
+        max-width: 150px;
+        font-size: 12px;
+    }
+    .main-content-first_shipping{
+        margin-top: 45px;
+    }
+    .fullname{
+        font-size: 12px;
+    }
+    .info-second p{
+        left: 43px;
+    }
+    .arrow i{
+        left: 142px;
+        font-size: 10px;
+        padding: 3px 4px 3px 3px;
+    }
+    .box span{
+        padding: 0px 5px 0px 10px;
+    }
+    .main-check-save p{
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .main-continue{
+        margin: 23px 0 0 212px;
+    }
+    .footer{
+        margin-top: 94px;
+    }
+}
